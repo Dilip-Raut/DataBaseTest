@@ -21,6 +21,7 @@ public class FetchDataFromDB {
 		
 		System.out.println("Connection Establish Successfully");
 		
+		
 		Statement st=con.createStatement();
 		ResultSet rs=st.executeQuery("select * from credentials");
 		
