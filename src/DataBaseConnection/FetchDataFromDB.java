@@ -19,7 +19,7 @@ public class FetchDataFromDB {
 		Class.forName(driver);
 		con=DriverManager.getConnection(dbUrl,userName,password);
 		
-		System.out.println("Connection Establish Successfully");
+		System.out.println("Connection Establish Successfully Done");
 		
 		
 		Statement st=con.createStatement();
